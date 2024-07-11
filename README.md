@@ -13,3 +13,9 @@
 `Description:` In this notebook, I aimed to analyze different aspects of Josiah Gray's pitching and potential improvements. I focused on attributes like release points, sequencing, pitch decisions and more. 
 
 ## Research Assistant Projects
+
+### * Reddit Classification Task
+
+`Repository:` [Reddit Classification Task](https://github.com/alexapostol095/reddit_classification_template/tree/main)
+
+`Description:`
