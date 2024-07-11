@@ -14,8 +14,8 @@
 
 ## Research Assistant Projects
 
-### * Reddit Classification Task
+### Reddit Classification Task
 
 `Repository:` [Reddit Classification Task](https://github.com/alexapostol095/reddit_classification_template/tree/main)
 
-`Description:`
+`Description:` This task set up a general template for utilizng LLMs in the interest of Reddit post classification, part of a larger project directed by Dr. Gui Liberali and Dr. David Kusterer. In this instance, I wrote code that utilizes a local llama3 LLM model in order to classify 100 Reddit posts, 50 from the Republican subreddit and 50 from the Democrat subreddit, based on their political leanings. The LLM was tasked to score posts on a scale from 1 to 5, with lower scores corresponding to more republican posts and vice versa. 
