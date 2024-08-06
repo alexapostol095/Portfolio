@@ -24,6 +24,6 @@
 
 `Repository:` [Video Similarity Analysis Task](https://github.com/alexapostol095/video_similarity_analysis)
 
-`Description:` This repository contains the code and video files utilized in a project where video similarity analysis was conducted through Siamese Neural Networks and SimCLR embeddings. Computer vision was utilized by extracting frame-level embeddings meant to provide a numerical representation of the subjects/objects within the frames.
+`Description:` This repository contains the code and video files utilized in a project where video similarity analysis was conducted through Siamese Neural Networks and SimCLR embeddings. Computer vision was utilized by extracting frame-level embeddings meant to provide a numerical representation of the subjects/objects within the frames. The base of the frame-extraction code was written by Dr. Gui Liberali, I contributed in the area of extracting embeddings from the given frames.
 
 
