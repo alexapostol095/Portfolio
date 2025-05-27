@@ -3,9 +3,9 @@
 ## Solo Python Projects
 
 ### 1. Predicting the Results of the 2025 Polish Presidential Election
-`Notebook:` [Leverage Analysis](https://nbviewer.org/github/alexapostol095/Projects/blob/main/leverage_notebook.ipynb)
+`Notebook:` [Polish Election Prediction](https://nbviewer.org/github/alexapostol095/Projects/blob/main/leverage_notebook.ipynb)
 
-`Data:` [Leverage Analysis Data](https://github.com/alexapostol095/Projects/blob/main/leverage_data.zip)
+`Data:` [Polish Election Data](https://github.com/alexapostol095/Projects/tree/main/polish_election_data))
 
 ### 2. Is the "Clutch Gene" Real in Baseball? Investigating the Differences in the Sabermetric-Based Predictions of High Leverage Performance versus Regular Performance
 `Notebook:` [Leverage Analysis](https://nbviewer.org/github/alexapostol095/Projects/blob/main/leverage_notebook.ipynb)
