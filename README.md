@@ -3,7 +3,7 @@
 ## Solo Python Projects
 
 ### 1. Predicting the Results of the 2025 Polish Presidential Election
-`Notebook:` [Polish Election Prediction]()
+`Notebook:` [Polish Election Prediction](https://nbviewer.org/github/alexapostol095/Projects/blob/main/polish_election_prediction_notebook.ipynb?/flush_cache=true)
 
 `Data:` [Polish Election Data](https://github.com/alexapostol095/Projects/tree/main/polish_election_data)
 
