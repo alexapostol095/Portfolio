@@ -7,6 +7,9 @@
 
 `Data:` [Polish Election Data](https://github.com/alexapostol095/Projects/tree/main/polish_election_data)
 
+`Description:` In this notebook, I adapt a previously used election-prediction technique in the context of the 2025 Polish Presidential Election. My prediction ended up missing by a comfortable margin, unfortunately, but I personally gained a lot of useful experience regarding data cleaning and aggregation. 
+
+
 ### 2. Is the "Clutch Gene" Real in Baseball? Investigating the Differences in the Sabermetric-Based Predictions of High Leverage Performance versus Regular Performance
 `Notebook:` [Leverage Analysis](https://nbviewer.org/github/alexapostol095/Projects/blob/main/leverage_notebook.ipynb)
 
