@@ -39,6 +39,11 @@
 
 ## Other
 
+### Master's Thesis: Enhancing Price Sensitivity Models with Network Analysis and Clustering for Key Value Item Identification
+
+`Repository:` [Master's Thesis](https://github.com/alexapostol095/master_thesis)
+
+
 ### Purchase Prediction with Boosted Trees (Part of Erasmus Learning from Big Data Minor)
 
 `Notebook:` [Purhcase Prediction Notebook](https://nbviewer.org/github/alexapostol095/Projects/blob/main/purchase_prediction.ipynb)
