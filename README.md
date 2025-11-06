@@ -2,7 +2,17 @@
 
 ## Solo Python Projects
 
-### 1. Predicting the Results of the 2025 Polish Presidential Election
+### 1. Analyzing U.S. Defense Contract Spending on Ground Vehicle Programs (2016–2020)
+`Notebook:` [Ground Vehicle Analysis](https://github.com/alexapostol095/ground_vehicle_exploration/blob/main/ground_vehicles.ipynb)
+
+`Data:` [Ground Vehicle Data](https://github.com/alexapostol095/ground_vehicle_exploration/blob/main/ground_vehicles.xlsx)
+
+`Write-up:` [Ground Vehicle Write-up](https://github.com/alexapostol095/ground_vehicle_exploration/blob/main/Alexander%20Apostol%20Ground%20Vehicle%20Exploration%20.pdf)
+
+`Description:` This project explores U.S. federal contracting data related to ground vehicle programs to uncover trends in military procurement, vendor concentration, and program-level spending over time.
+
+
+### 2. Predicting the Results of the 2025 Polish Presidential Election
 `Notebook:` [Polish Election Prediction](https://github.com/alexapostol095/Projects/blob/main/polish_election_prediction_notebook.ipynb)
 
 `Data:` [Polish Election Data](https://github.com/alexapostol095/Projects/tree/main/polish_election_data)
@@ -10,14 +20,14 @@
 `Description:` In this notebook, I adapt a previously used election-prediction technique in the context of the 2025 Polish Presidential Election. My prediction ended up missing by a comfortable margin, unfortunately, but I personally gained a lot of useful experience regarding data cleaning and aggregation. 
 
 
-### 2. Is the "Clutch Gene" Real in Baseball? Investigating the Differences in the Sabermetric-Based Predictions of High Leverage Performance versus Regular Performance
+### 3. Is the "Clutch Gene" Real in Baseball? Investigating the Differences in the Sabermetric-Based Predictions of High Leverage Performance versus Regular Performance
 `Notebook:` [Leverage Analysis](https://github.com/alexapostol095/Projects/blob/main/leverage_notebook.ipynb)
 
 `Data:` [Leverage Analysis Data](https://github.com/alexapostol095/Projects/blob/main/leverage_data.zip)
 
 `Description:` In this notebook, I aimed to assess the extent to which variables indicative of OPS+ (On-Base Plus Slugging Plus) are also relevant in predicting tOPS+ (Player-specific OPS+ in High Leverage Situations) and sOPS+. 
 
-### 3. A Visual Analysis of Josiah Gray's 2023 Season
+### 4. A Visual Analysis of Josiah Gray's 2023 Season
 `Notebook:` [Josiah Gray Analysis](https://github.com/alexapostol095/Projects/blob/main/josiah_analysis.ipynb)
 
 `Description:` In this notebook, I aimed to analyze different aspects of Josiah Gray's pitching and potential improvements. I focused on attributes like release points, sequencing, pitch decisions and more. 
