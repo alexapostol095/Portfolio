@@ -2,8 +2,8 @@
 
 ## Solo Python Projects
 
-### 1. Analyzing U.S. Defense Contract Spending on Ground Vehicle Programs (2016–2020)
-`Notebook:` [Separating Skill from Luck: A Bayesian Approach to MLB Pitcher Evaluation](https://github.com/alexapostol095/pitching_bayesian_shrinkage/blob/main/mlb_bayesian_pitcher_model.ipynb)
+### 1. Separating Skill from Luck: A Bayesian Approach to MLB Pitcher Evaluation
+`Notebook:` [MLB Bayesian Analysis](https://github.com/alexapostol095/pitching_bayesian_shrinkage/blob/main/mlb_bayesian_pitcher_model.ipynb)
 
 `Data:` [MLB Starter Data](https://github.com/alexapostol095/pitching_bayesian_shrinkage/blob/main/fangraphs_pitching_2025.csv)
 
