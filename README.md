@@ -9,8 +9,7 @@
 
 `Repository:` [Bequeathed-Runner ERA Adjustment](https://github.com/alexapostol095/era_adjustment_bequeathed_runners/tree/main)
 
-`Description:` This project corrects a structural flaw in traditional ERA: when a starter leaves with runners on base, whether those runners score is decided by the reliever, yet the runs are charged to the starter. Using pitch-level Statcast data (via `pybaseball`) collapsed to plate-appearance level, I recompute ERA by replacing the actual downstream fate of each starter's bequeathed runners with their expected value under league-average pitching, given the base-out state at the moment of the pitching change. Expectations are derived through a 24 base-out state run-expectancy framework two ways — as marginal run expectancy (RE24-based) and as the sum of per-runner scoring probabilities (a direct analog of ERA's own logic) — with each estimated both empirically from the season's play-by-play and from published league-average tables, yielding four adjusted-ERA variants to compare. Season pitching totals are pulled from the MLB Stats API.
-
+`Description:` This project corrects a structural flaw in traditional ERA: when a starter leaves with runners on base, whether those runners score is decided by the reliever, yet the runs are charged to the starter. Using pitch-level Statcast data (via `pybaseball`) collapsed to plate-appearance level, I recompute ERA by replacing the actual downstream fate of each starter's bequeathed runners with their expected value under league-average pitching, given the base-out state at the moment of the pitching change.
 ### Separating Skill from Luck: A Bayesian Approach to MLB Pitcher Evaluation
 `Notebook:` [MLB Bayesian Analysis](https://github.com/alexapostol095/pitching_bayesian_shrinkage/blob/main/mlb_bayesian_pitcher_model.ipynb)
 
