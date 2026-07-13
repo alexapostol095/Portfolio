@@ -2,6 +2,15 @@
 
 ## Solo Python Projects
 
+### Adjusting ERA for Bequeathed Runners: Crediting Starters by Run Expectancy at Handoff
+`Notebook:` [Adjusted ERA Notebook](https://github.com/alexapostol095/era_adjustment_bequeathed_runners/blob/main/adjusted_era_2025.ipynb)
+
+`Data:` [Adjusted ERA Output](https://github.com/alexapostol095/era_adjustment_bequeathed_runners/blob/main/adjusted_era_2025.csv)
+
+`Repository:` [Bequeathed-Runner ERA Adjustment](https://github.com/alexapostol095/era_adjustment_bequeathed_runners/tree/main)
+
+`Description:` This project corrects a structural flaw in traditional ERA: when a starter leaves with runners on base, whether those runners score is decided by the reliever, yet the runs are charged to the starter. Using pitch-level Statcast data (via `pybaseball`) collapsed to plate-appearance level, I recompute ERA by replacing the actual downstream fate of each starter's bequeathed runners with their expected value under league-average pitching, given the base-out state at the moment of the pitching change. Expectations are derived through a 24 base-out state run-expectancy framework two ways — as marginal run expectancy (RE24-based) and as the sum of per-runner scoring probabilities (a direct analog of ERA's own logic) — with each estimated both empirically from the season's play-by-play and from published league-average tables, yielding four adjusted-ERA variants to compare. Season pitching totals are pulled from the MLB Stats API.
+
 ### Separating Skill from Luck: A Bayesian Approach to MLB Pitcher Evaluation
 `Notebook:` [MLB Bayesian Analysis](https://github.com/alexapostol095/pitching_bayesian_shrinkage/blob/main/mlb_bayesian_pitcher_model.ipynb)
 
@@ -66,4 +75,3 @@
 `Notebook:` [Purhcase Prediction Notebook](https://nbviewer.org/github/alexapostol095/Projects/blob/main/purchase_prediction.ipynb)
 
 `Description:` This notebook employed various machine learning/analytical methods to predict the shopping tendencies of 2,000 customers across 250 different products over 90 weeks, resulting in 500,000 predictions. Feature engineering employed K-means clustering in the 2nd and 3rd dimensions and basic yet intuitive data transformation. The analysis compared the uses of Adaptive Boosting, Gradient Boosting, XG Boosting, and Random Forest learning algorithms, with the XG Boosting algorithm providing the best result. The parameters of the XGBoost model were optimized through Bayesian inference. The final model yielded a log loss of 0.0773, which was the 2nd best in the class and the 3rd best in the 5-year running history of the challenge. The project served as a challenging introduction to large prediction tasks utilizing common yet powerful algorithms.
-
