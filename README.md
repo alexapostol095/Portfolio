@@ -10,12 +10,22 @@
 `Repository:` [Bequeathed-Runner ERA Adjustment](https://github.com/alexapostol095/era_adjustment_bequeathed_runners/tree/main)
 
 `Description:` This project corrects a structural flaw in traditional ERA: when a starter leaves with runners on base, whether those runners score is decided by the reliever, yet the runs are charged to the starter. Using pitch-level Statcast data (via `pybaseball`) collapsed to plate-appearance level, I recompute ERA by replacing the actual downstream fate of each starter's bequeathed runners with their expected value under league-average pitching, given the base-out state at the moment of the pitching change.
+
 ### Separating Skill from Luck: A Bayesian Approach to MLB Pitcher Evaluation
 `Notebook:` [MLB Bayesian Analysis](https://github.com/alexapostol095/pitching_bayesian_shrinkage/blob/main/mlb_bayesian_pitcher_model.ipynb)
 
 `Data:` [MLB Starter Data](https://github.com/alexapostol095/pitching_bayesian_shrinkage/blob/main/fangraphs_pitching_2025.csv)
 
 `Description:` A hierarchical Bayesian model built with JAX and NumPyro that estimates true pitcher skill from 2025 FIP data, quantifying uncertainty through partial pooling and Bayesian shrinkage.
+
+### Forecasting Hourly Energy Demand: SARIMA vs. Prophet vs. LightGBM
+`Notebook:` [Energy Demand Forecasting Notebook](https://github.com/alexapostol095/energy_demand_forecast/blob/main/timeseries_energy_forecasting.ipynb)
+
+`Data:` [PJME Hourly Demand Data](https://github.com/alexapostol095/energy_demand_forecast/blob/main/PJME_hourly.csv)
+
+`Repository:` [Energy Demand Forecast](https://github.com/alexapostol095/energy_demand_forecast)
+
+`Description:` A rolling-origin backtest comparing three forecasting approaches on PJM East hourly electricity demand: SARIMA fit on daily aggregates and disaggregated to hourly resolution, Prophet fit directly on the hourly series, and LightGBM trained as independent quantile regressors on horizon-safe lag and calendar features. Beyond point accuracy (MAE/MAPE), I evaluated each model's prediction interval calibration by comparing empirical coverage against the nominal 90% target across six backtest folds — a step that revealed SARIMA, despite being the simplest approach, produced both the best mean accuracy and the most reliably calibrated intervals, while LightGBM's quantile intervals swung from severely under-covered to well-calibrated depending on the fold.
 
 ### Analyzing U.S. Defense Contract Spending on Ground Vehicle Programs (2016–2020)
 `Notebook:` [Ground Vehicle Analysis](https://github.com/alexapostol095/ground_vehicle_exploration/blob/main/ground_vehicles.ipynb)
