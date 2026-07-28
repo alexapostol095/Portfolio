@@ -2,6 +2,16 @@
 
 ## Solo Python Projects
 
+
+### Where Fishing Vessels Go Dark: A Descriptive OSINT Study of AIS Disabling on the High Seas
+`Notebook:` [AIS Going Dark Notebook](https://github.com/alexapostol095/ais_going_dark_exploration/blob/main/ais_going_dark_exploration.ipynb)
+
+`Data:` [Global Fishing Watch — AIS Disabling Events](https://github.com/GlobalFishingWatch/AIS-disabling-high-seas)
+
+`Repository:` [AIS Going Dark Exploration](https://github.com/alexapostol095/ais_going_dark_exploration/tree/main)
+
+`Description:` A descriptive open-source-intelligence study of where, how, and by which fleets large fishing vessels switch off their AIS transponders on the high seas, built on 55,368 real disabling events (2017–2020) from Global Fishing Watch (Welch et al., 2022) and loaded directly from source for full reproducibility. Event start positions are clustered on the sphere with DBSCAN under a haversine metric to surface disabling hotspots, each characterized by its flag and gear *composition* rather than a single modal label; fleet behaviour is profiled by gap duration, distance from shore, and distance travelled while dark (separating loitering from transiting); and an IsolationForest scores the extreme tail of long, remote, far-travelled disappearances as an analyst triage layer. The project is deliberately descriptive and makes no claims about intent: the events are model-derived likely-intentional gaps confounded by satellite reception, and "anomalous" is treated as statistically unusual, never as evidence of wrongdoing.
+
 ### Adjusting ERA for Bequeathed Runners: Crediting Starters by Run Expectancy at Handoff
 `Notebook:` [Adjusted ERA Notebook](https://github.com/alexapostol095/era_adjustment_bequeathed_runners/blob/main/adjusted_era_2025.ipynb)
 
