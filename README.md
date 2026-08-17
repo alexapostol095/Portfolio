@@ -2,6 +2,15 @@
 
 ## Solo Python Projects
 
+### Alert Triage for Anti-Money Laundering: Ranking a Transaction Monitoring Queue Under Capacity Constraints
+`Notebook:` [AML Alert Triage Notebook](https://github.com/alexapostol095/ibm_aml_project/blob/main/aml_portfolio.ipynb)
+
+`Data:` [IBM Transactions for Anti Money Laundering (HI-Small)](https://www.kaggle.com/datasets/ealtman2019/ibm-transactions-for-anti-money-laundering-aml)
+
+`Repository:` [IBM AML Project](https://github.com/alexapostol095/ibm_aml_project)
+
+`Description:` A supervised detection study on 5.08M synthetic interbank transactions (IBM/AMLworld, Altman et al., NeurIPS 2023) in which 0.102% are labelled laundering, framed around the constraint that actually binds transaction monitoring in practice: investigator capacity rather than model accuracy. Accounts are resolved to customers via the accompanying account master — 518,581 accounts mapping to 166,207 entities at 3.12 accounts each — making counterparty structure measurable at the level a bank monitors rather than the level payments are recorded at; removing the resulting entity-level degree and volume features costs roughly 13% of average precision. The split is temporal and cut on cumulative volume rather than calendar midpoint (the file spans 18 days with a sparse tail), and every aggregate is computed from the training window alone, since deriving degree features over the full dataset before splitting leaks future behaviour into past predictions. Amounts are normalised within currency, because median payment size spans a millionfold across the 15 currencies present and a raw amount therefore encodes denomination more than magnitude. Class imbalance is handled by retaining every positive and downsampling negatives 20:1, with the resulting calibration cost stated explicitly and ranking metrics used throughout in consequence. XGBoost reaches an average precision of 0.272 against a 0.0016 base rate — a 170× lift, roughly seven times the linear baseline — but the substantive result is the capacity curve: precision is 86% in the top 50 alerts, the system finds 176 cases at 1.4 alerts per case at a capacity of 250, and even reviewing 5,000 alerts recovers under half the laundering present. Efficient triage and adequate coverage are different problems. The notebook is also explicit about where the dataset betrays its simulator: no laundering transaction in the file is cross-currency, and a single generator-assigned categorical carries 28% of model importance, so the shape of these results transfers to real payment traffic while their height does not.
+
 
 ### Where Fishing Vessels Go Dark: A Descriptive OSINT Study of AIS Disabling on the High Seas
 `Notebook:` [AIS Going Dark Notebook](https://github.com/alexapostol095/ais_going_dark_exploration/blob/main/ais_going_dark_exploration.ipynb)
