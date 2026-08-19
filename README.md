@@ -49,8 +49,6 @@
 ### Analyzing U.S. Defense Contract Spending on Ground Vehicle Programs (2016–2020)
 `Notebook:` [Ground Vehicle Analysis](https://github.com/alexapostol095/ground_vehicle_exploration/blob/main/ground_vehicles.ipynb)
 
-`Data:` [Ground Vehicle Data](https://github.com/alexapostol095/ground_vehicle_exploration/blob/main/ground_vehicles.xlsx)
-
 `Write-up:` [Ground Vehicle Write-up](https://github.com/alexapostol095/ground_vehicle_exploration/blob/main/Alexander%20Apostol%20Ground%20Vehicle%20Exploration%20.pdf)
 
 `Description:` This project explores U.S. federal contracting data related to ground vehicle programs to uncover trends in military procurement, vendor concentration, and program-level spending over time.
